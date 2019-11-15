@@ -1,0 +1,56 @@
+#+TITLE: Data Structures Lab - II
+#+AUTHOR: VLEAD
+#+DATE: [2019-11-14 Mon]
+#+SETUPFILE: ./org-templates/level-0.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* Introduction
+  This document captures the repo structure and instructions to run a lab.
+
+* Repository Structure
+  #+BEGIN_EXAMPLE
+  |-- makefile
+  |-- README.org
+  |-- .gitignore
+  |-- src/
+        |-- lab/
+        |    |-- Introduction.html
+        |    |-- Theory.html
+        |    |-- Objective.html 	 	
+        |        .
+        |        .
+        |        .
+        |-- themes/ 
+      	      |-- green-icon/
+  	                |-- css/
+  	                |-- js/
+  	                |-- images/
+  	                |-- vendors/
+  #+END_EXAMPLE
+
+* Steps to build and run a lab
+  *STEP 1 :* Clone the lab repository
+  #+BEGIN_EXAMPLE
+  git clone https://github.com/vitual-labs/data-structures-lab-II.git
+  #+END_EXAMPLE
+
+  *STEP 2 :* Change directory to lab repo
+  #+BEGIN_EXAMPLE
+  cd data-structures-lab-II
+  #+END_EXAMPLE
+
+  *STEP 3 :* Removes the build directory and builds the sources
+  #+BEGIN_EXAMPLE
+  make -k all
+  #+END_EXAMPLE
+  
+  *STEP 4 :* Run the lab server
+  #+BEGIN_EXAMPLE
+  make -k run
+  #+END_EXAMPLE
+  
+  
+  
+
