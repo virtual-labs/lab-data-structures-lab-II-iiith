@@ -1334,3 +1334,56 @@ font-size: 30px;
 		font-size: 1.8em;
 	}
 }
+
+/* Positioning of experiments status bar*/
+#exps-status-indicator {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#exps-status-indicator .legend { 
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0; 
+}
+
+#exps-status-indicator .legend li { 
+	float: left; 
+	margin-right: 4em; 
+	font-weight: bold;
+	display: inline;
+}
+
+#exps-status-indicator .legend span { 
+	border: 1px solid #ccc; 
+	width: 12px; 
+	height: 12px;
+	float: left;  
+	margin: 2px; 
+}
+
+/* Colors for experiments status bar*/
+#exps-status-indicator .legend .legend-green { 
+	background-color: green; 
+}
+
+#exps-status-indicator .legend .legend-blue { 
+	background-color: blue; 
+}
+
+#exps-status-indicator .legend .legend-red { 
+	background-color: red; 
+}
+
+/* Rules to fix the footer at the bottom of the page */
+/*footer {
+	position: fixed;
+  	margin-left: 0;
+  	bottom: 0;
+  	width: 100%;
+}*/
+
+/* To justify the paragraph text */
+p {
+	text-align: justify;
+}
