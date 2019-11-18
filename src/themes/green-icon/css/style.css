@@ -1387,3 +1387,21 @@ font-size: 30px;
 p {
 	text-align: justify;
 }
+
+/* Styles for feedback button in feedback section */
+#feedback-btn {
+	color: #2C99CE !important;
+	border-color: #2C99CE !important; 
+}
+
+#feedback-btn-link {
+	display: block;
+	margin: auto;
+	width: 17%;
+}	
+
+#feedback-btn-link:hover {
+	text-decoration: inherit !important;
+	color: inherit !important;
+}
+
