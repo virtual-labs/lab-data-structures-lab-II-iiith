@@ -1335,53 +1335,28 @@ font-size: 30px;
 	}
 }
 
-/* Positioning of experiments status bar*/
-#exps-status-indicator {
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
-
-#exps-status-indicator .legend { 
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0; 
-}
-
-#exps-status-indicator .legend li { 
-	float: left; 
-	margin-right: 4em; 
-	font-weight: bold;
-	display: inline;
-}
-
-#exps-status-indicator .legend span { 
-	border: 1px solid #ccc; 
-	width: 12px; 
-	height: 12px;
-	float: left;  
-	margin: 2px; 
-}
-
-/* Colors for experiments status bar*/
-#exps-status-indicator .legend .legend-green { 
-	background-color: green; 
-}
-
-#exps-status-indicator .legend .legend-blue { 
-	background-color: blue; 
-}
-
-#exps-status-indicator .legend .legend-red { 
-	background-color: red; 
-}
-
 /* Rules to fix the footer at the bottom of the page */
-/*footer {
-	position: fixed;
-  	margin-left: 0;
-  	bottom: 0;
-  	width: 100%;
-}*/
+html{ height:100%; }
+body{ min-height:100%; padding:0; margin:0; position:relative; }
+
+body::after{ content:''; display:block; height:100px; }
+
+footer{ 
+  position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:100px; 
+}
+
+#contact-info {
+	font-size: 1.3em;
+	padding-left: 10px;
+	color: #72AB44;
+}
+
+.footer-div {
+	margin-top: inherit !important;
+}
 
 /* To justify the paragraph text */
 p {
@@ -1405,3 +1380,28 @@ p {
 	color: inherit !important;
 }
 
+/*Styles for list*/
+ul li span, ol li span {
+	font-size: 1.3em
+}
+
+ul li, ol li{
+	font-size: 1.1em
+}
+
+/*Styles for progress bars*/
+.progress {
+	font-weight: bold;
+}
+
+.progress-bar-green {
+	background-color: #008000;
+}
+
+.progress-bar-blue {
+	background-color: #130e71;
+}
+
+.progress-bar-red {
+	background-color: #d9534f;
+}
