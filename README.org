@@ -1,6 +1,6 @@
-#+TITLE: Data Structures Lab - II
+#+TITLE: Hosting
 #+AUTHOR: VLEAD
-#+DATE: [2019-11-14 Mon]
+#+DATE: [2020-03-02 Mon]
 #+SETUPFILE: ./org-templates/level-0.org
 #+TAGS: boilerplate(b)
 #+EXCLUDE_TAGS: boilerplate
@@ -16,29 +16,23 @@
   |-- .gitignore
   |-- src/
         |-- lab/
+        |    |-- experiment-list.json
         |    |-- Introduction.html
-        |    |-- Theory.html
-        |    |-- Objective.html 	 	
-        |        .
-        |        .
-        |        .
-        |-- themes/ 
-      	      |-- green-icon/
-  	                |-- css/
-  	                |-- js/
-  	                |-- images/
-  	                |-- vendors/
-  #+END_EXAMPLE
+        |    |-- Objective.html 
+        |    |-- List of experiments.html 
+        |    |-- Target-audience.html
+        |    |-- Feedback.html
+#+END_EXAMPLE
 
 * Steps to build and run a lab
   *STEP 1 :* Clone the lab repository
   #+BEGIN_EXAMPLE
-  https://github.com/virtual-labs/data-structures-lab-II-iiith
+  https://github.com/virtual-labs/hosting.git
   #+END_EXAMPLE
 
   *STEP 2 :* Change directory to lab repo
   #+BEGIN_EXAMPLE
-  cd data-structures-lab-I
+  cd hosting
   #+END_EXAMPLE
 
   *STEP 3 :* Removes the build directory and builds the sources
