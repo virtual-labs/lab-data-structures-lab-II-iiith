@@ -40,8 +40,8 @@
 				        "deploy": true 
 				},
 				{
-					"name": "Minimum Spanning Tree",
-					"short-name": "min-spanning-tree",
+					"name": "Minimum Spanning Trees",
+					"short-name": "min-spanning-trees",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/min-spanning-trees",
   				        "tag": "v1.0.4",
 				        "deploy": true
@@ -61,7 +61,7 @@
 				{
 					"name": "2-3 Tree",
 					"short-name": "2-3-tree",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/2-3tree",
+					"repo": "https://gitlab.com/vlead-projects/experiments/ds/2-3-tree",
   				        "tag": "v1.0.4",
 				        "deploy": true
 				},
