@@ -16,7 +16,7 @@
 					"name": "Selection Sort",
 					"short-name": "selection-sort",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/selection-sort",
-				        "tag": "",
+				        "tag": "v3.0.4",
 				        "deploy": true 
 				    
 				},
@@ -24,7 +24,7 @@
 					"name": "Radix Sort",
 					"short-name": "radix-sort",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/radix-sort",
- 				        "tag": "",
+ 				        "tag": "v2.0.4",
 				        "deploy": true 
 				}
 			]		
@@ -34,22 +34,22 @@
 			"experiments": [
 				{
 					"name": "Topological Sort",
-					"short-name": "topological-sort",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/topological-sort",
+					"short-name": "topo-sort",
+					"repo": "https://gitlab.com/vlead-projects/experiments/ds/topo-sort",
  				        "tag": "",
 				        "deploy": true 
 				},
 				{
 					"name": "Minimum Spanning Tree",
-					"short-name": "minimum-spanning-tree",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/minimum-spanning-trees",
+					"short-name": "min-spanning-tree",
+					"repo": "https://gitlab.com/vlead-projects/experiments/ds/min-spanning-trees",
   				        "tag": "",
 				        "deploy": true
 				},
 				{
 					"name": "Path algorithms: Dijkstra’s shortest path",
-					"short-name": "dijkstras",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/dijkstras",
+					"short-name": "dijkstra-algorithm",
+					"repo": "https://gitlab.com/vlead-projects/experiments/ds/dijkstra-algorithm",
   				        "tag": "",
 				        "deploy": true
 				}
@@ -79,8 +79,8 @@
 			"experiments": [
 				{
 					"name": "Tries and Suffix Trees",
-					"short-name": "tries-and-suffix-trees",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/tries-and-suffix-trees",
+					"short-name": "tries-suffix-trees",
+					"repo": "https://gitlab.com/vlead-projects/experiments/ds/tries-suffix-trees",
   				        "tag": "",
 				        "deploy": true
 				},
