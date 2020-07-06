@@ -17,7 +17,7 @@
 					"short-name": "selection-sort",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/selection-sort",
 				        "tag": "v3.0.4",
-				        "deploy": true 
+				        "deploy": false 
 				    
 				},
 				{
@@ -25,7 +25,7 @@
 					"short-name": "radix-sort",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/radix-sort",
  				        "tag": "v2.0.4",
-				        "deploy": true 
+				        "deploy": false 
 				}
 			]		
 	    },	    
@@ -37,7 +37,7 @@
 					"short-name": "topo-sort",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/topo-sort",
  				        "tag": "v1.0.4",
-				        "deploy": true 
+				        "deploy": false 
 				},
 				{
 					"name": "Minimum Spanning Trees",
@@ -51,7 +51,7 @@
 					"short-name": "dijkstra-algorithm",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/dijkstra-algorithm",
   				        "tag": "v1.0.4",
-				        "deploy": true
+				        "deploy": false
 				}
 			]		
 		},
@@ -63,14 +63,14 @@
 					"short-name": "2-3-tree",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/2-3-tree",
   				        "tag": "v1.0.4",
-				        "deploy": true
+				        "deploy": false
 				},
 				{
 					"name": "Red Black Tree",
 					"short-name": "red-black-tree",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/red-black-tree",
   				        "tag": "v1.0.4",
-				        "deploy": true
+				        "deploy": false
 				}
 			]		
 		},
@@ -82,7 +82,7 @@
 					"short-name": "tries-suffix-trees",
 					"repo": "https://gitlab.com/vlead-projects/experiments/ds/tries-suffix-trees",
   				        "tag": "v0.2.7",
-				        "deploy": true
+				        "deploy": false
 				},
 				{
 					"name": "Substring search: KMP algorithm",
