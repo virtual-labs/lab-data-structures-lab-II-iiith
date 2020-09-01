@@ -19,10 +19,10 @@ copy-lab-sources:
 	cp -rf ${SRC_DIR}/lab/* ${BUILD_DIR}
 
 copy-exp-common-css:
-	cp -rf ${SRC_DIR}/static/${exp-common-css}/* ${BUILD_DIR}
+	cp -rf ${SRC_DIR}/static/* ${BUILD_DIR}
 
 copy-exp-common-js:
-	cp -rf ${SRC_DIR}/static/${exp-common-js}/* ${BUILD_DIR}
+	cp -rf ${SRC_DIR}/static/* ${BUILD_DIR}
 
 copy-libs:
 	cp -rf ${SRC_DIR}/libs ${BUILD_DIR}
