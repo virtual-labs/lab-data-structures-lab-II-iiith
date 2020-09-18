@@ -1,115 +1,113 @@
 {
-    "broadArea": {
-	"name": "Computer Science and Engineering",
-	"link": "http://vlab.co.in/broad-area-computer-science-and-engineering"
+  "broadArea": {
+    "name": "Computer Science and Engineering",
+    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering"
+  },
+  "lab": "Data Structures – 2",
+  "phase": 3,
+  "collegeName": "IIITH",
+  "baseUrl": "ds2-iiith.vlabs.ac.in",
+  "introduction": "Welcome to the Data Structures Lab - II developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
+  "experiment-sections": [
+    {
+      "sect-name": "Sorting",
+      "experiments": [
+        {
+          "name": "Selection Sort",
+          "short-name": "selection-sort",
+          "repo": "https://gitlab.com/vlead-projects/experiments/ds/selection-sort",
+          "tag": "v3.0.4",
+          "deploy": false
+        },
+        {
+          "name": "Radix Sort",
+          "short-name": "radix-sort",
+          "repo": "https://gitlab.com/vlead-projects/experiments/ds/radix-sort",
+          "tag": "v2.0.4",
+          "deploy": false
+        }
+      ]
     },
-    "lab": "Data Structures – 2",
-    "phase": 3,
-    "collegeName": "IIITH",
-    "baseUrl": "ds2-iiith.vlabs.ac.in",
-	"introduction": "Welcome to the Data Structures Lab - II developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-	"experiment-sections":[
-	    {
-			"sect-name": "Sorting",
-			"experiments": [
-				{
-					"name": "Selection Sort",
-					"short-name": "selection-sort",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/selection-sort",
-				        "tag": "v3.0.4",
-				        "deploy": false 
-				    
-				},
-				{
-					"name": "Radix Sort",
-					"short-name": "radix-sort",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/radix-sort",
- 				        "tag": "v2.0.4",
-				        "deploy": false 
-				}
-			]		
-	    },	    
-	    {
-			"sect-name": "Graphs",
-			"experiments": [
-				{
-					"name": "Topological Sort",
-					"short-name": "topo-sort",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/topo-sort",
- 				        "tag": "v1.0.4",
-				        "deploy": false 
-				},
-				{
-					"name": "Minimum Spanning Trees",
-					"short-name": "min-spanning-trees",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/min-spanning-trees",
-  				        "tag": "v1.0.4",
-				        "deploy": true
-				},
-				{
-					"name": "Path algorithms: Dijkstra’s shortest path",
-					"short-name": "dijkstra-algorithm",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/dijkstra-algorithm",
-  				        "tag": "v1.0.4",
-				        "deploy": false
-				}
-			]		
-		},
-		{
-			"sect-name": "Search Trees",
-			"experiments": [
-				{
-					"name": "2-3 Tree",
-					"short-name": "2-3-tree",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/2-3-tree",
-  				        "tag": "v1.0.4",
-				        "deploy": false
-				},
-				{
-					"name": "Red Black Tree",
-					"short-name": "red-black-tree",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/red-black-tree",
-  				        "tag": "v1.0.4",
-				        "deploy": false
-				}
-			]		
-		},
-		{
-			"sect-name": "Strings",
-			"experiments": [
-				{
-					"name": "Tries and Suffix Trees",
-					"short-name": "tries-suffix-trees",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/tries-suffix-trees",
-  				        "tag": "v0.2.7",
-				        "deploy": false
-				},
-				{
-					"name": "Substring search: KMP algorithm",
-					"short-name": "kmp-algorithm",
-					"repo": "https://gitlab.com/vlead-projects/experiments/ds/kmp-algorithm",
-  				        "tag": "v2.0.4",
-				        "deploy": true
-				}
-			]		
-		}
-		
-	],
-    "targetAudience": {
-	"UG": [
-	    " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
-	],
-	"PG": [
-	    "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
-	]
+    {
+      "sect-name": "Graphs",
+      "experiments": [
+        {
+          "name": "Topological Sort",
+          "short-name": "topo-sort",
+          "repo": "https://gitlab.com/vlead-projects/experiments/ds/topo-sort",
+          "tag": "v1.0.4",
+          "deploy": false
+        },
+        {
+          "name": "Minimum Spanning Trees",
+          "short-name": "min-spanning-trees",
+          "repo": "https://gitlab.com/vlead-projects/experiments/ds/min-spanning-trees",
+          "tag": "v1.0.4",
+          "deploy": true
+        },
+        {
+          "name": "Path algorithms: Dijkstra’s shortest path",
+          "short-name": "dijkstra-algorithm",
+          "repo": "https://gitlab.com/vlead-projects/experiments/ds/dijkstra-algorithm",
+          "tag": "v1.0.4",
+          "deploy": false
+        }
+      ]
     },
-    "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
-    "courseAlignment": {
-	"description": "The syllabi of this lab aligns to the following universities in India.",
-	"universities": [
-	    "Osmania University Data Structures Lab",
-	    "JNTU Data Structures Lab"
-	]
+    {
+      "sect-name": "Search Trees",
+      "experiments": [
+        {
+          "name": "2-3 Tree",
+          "short-name": "2-3-tree",
+          "repo": "https://gitlab.com/vlead-projects/experiments/ds/2-3-tree",
+          "tag": "v1.0.4",
+          "deploy": false
+        },
+        {
+          "name": "Red Black Tree",
+          "short-name": "red-black-tree",
+          "repo": "https://gitlab.com/vlead-projects/experiments/ds/red-black-tree",
+          "tag": "v1.0.4",
+          "deploy": false
+        }
+      ]
+    },
+    {
+      "sect-name": "Strings",
+      "experiments": [
+        {
+          "name": "Tries and Suffix Trees",
+          "short-name": "tries-suffix-trees",
+          "repo": "https://gitlab.com/vlead-projects/experiments/ds/tries-suffix-trees",
+          "tag": "v0.2.7",
+          "deploy": false
+        },
+        {
+          "name": "Substring search: KMP algorithm",
+          "short-name": "kmp-algorithm",
+          "repo": "https://gitlab.com/vlead-projects/experiments/ds/kmp-algorithm",
+          "tag": "v2.0.4",
+          "deploy": true
+        }
+      ]
     }
+  ],
+  "targetAudience": {
+    "UG": [
+      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+    ],
+    "PG": [
+      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+    ]
+  },
+  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "courseAlignment": {
+    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "universities": [
+      "Osmania University Data Structures Lab",
+      "JNTU Data Structures Lab"
+    ]
+  },
+  "version": "v1.2.4"
 }
-
