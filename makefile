@@ -10,7 +10,7 @@ all: clean-build build
 init:
 	./init.sh
 
-build: clean-build create-build-dir copy-lab-sources copy-lab-theme copy-exp-common-css copy-exp-common-js
+build: clean-build create-build-dir copy-lab-sources copy-lab-theme copy-exp-common-css copy-exp-common-js copy-exp-ere
 	
 create-build-dir:
 	mkdir -p ${BUILD_DIR}
@@ -23,6 +23,10 @@ copy-exp-common-css:
 
 copy-exp-common-js:
 	cp -rf ${SRC_DIR}/static/* ${BUILD_DIR}
+
+copy-exp-ere:
+	cp -rf ${SRC_DIR}/static/* ${BUILD_DIR}
+
 
 copy-libs:
 	cp -rf ${SRC_DIR}/libs ${BUILD_DIR}
