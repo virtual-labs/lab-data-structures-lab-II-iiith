@@ -15,16 +15,16 @@
         {
           "name": "Selection Sort",
           "short-name": "selection-sort",
-          "repo": "https://gitlab.com/vlead-projects/experiments/ds/selection-sort",
-          "tag": "v3.0.4",
-          "deploy": false
+          "repo": "https://github.com/virtual-labs/exp-selection-sort-iiith",
+          "tag": "v1.0.0",
+          "deploy": true
         },
         {
           "name": "Radix Sort",
           "short-name": "radix-sort",
-          "repo": "https://gitlab.com/vlead-projects/experiments/ds/radix-sort",
-          "tag": "v2.0.4",
-          "deploy": false
+          "repo": "https://github.com/virtual-labs/exp-radix-sort-iiith",
+          "tag": "v1.0.0",
+          "deploy": true
         }
       ]
     },
@@ -34,23 +34,23 @@
         {
           "name": "Topological Sort",
           "short-name": "topo-sort",
-          "repo": "https://gitlab.com/vlead-projects/experiments/ds/topo-sort",
-          "tag": "v1.0.4",
-          "deploy": false
+          "repo": "https://github.com/virtual-labs/exp-topological-sort-iiith",
+          "tag": "v1.0.0",
+          "deploy": true
         },
         {
           "name": "Minimum Spanning Trees",
           "short-name": "min-spanning-trees",
-          "repo": "https://gitlab.com/vlead-projects/experiments/ds/min-spanning-trees",
-          "tag": "v1.0.4",
+          "repo": "https://github.com/virtual-labs/exp-mst-iiith",
+          "tag": "v1.0.0",
           "deploy": true
         },
         {
           "name": "Path algorithms: Dijkstra’s shortest path",
           "short-name": "dijkstra-algorithm",
-          "repo": "https://gitlab.com/vlead-projects/experiments/ds/dijkstra-algorithm",
-          "tag": "v1.0.4",
-          "deploy": false
+          "repo": "https://github.com/virtual-labs/exp-dsp-iiith",
+          "tag": "v1.0.0",
+          "deploy": true
         }
       ]
     },
@@ -60,16 +60,16 @@
         {
           "name": "2-3 Tree",
           "short-name": "2-3-tree",
-          "repo": "https://gitlab.com/vlead-projects/experiments/ds/2-3-tree",
-          "tag": "v1.0.4",
-          "deploy": false
+          "repo": "https://github.com/virtual-labs/exp-2-3-tree-iiith",
+          "tag": "v1.0.0",
+          "deploy": true
         },
         {
           "name": "Red Black Tree",
           "short-name": "red-black-tree",
-          "repo": "https://gitlab.com/vlead-projects/experiments/ds/red-black-tree",
-          "tag": "v1.0.4",
-          "deploy": false
+          "repo": "https://github.com/virtual-labs/exp-red-black-tree-iiith",
+          "tag": "v1.0.0",
+          "deploy": true
         }
       ]
     },
@@ -79,15 +79,15 @@
         {
           "name": "Tries and Suffix Trees",
           "short-name": "tries-suffix-trees",
-          "repo": "https://gitlab.com/vlead-projects/experiments/ds/tries-suffix-trees",
-          "tag": "v0.2.7",
-          "deploy": false
+          "repo": "https://github.com/virtual-labs/exp-tries-and-suffix-iiith",
+          "tag": "v1.0.0",
+          "deploy": true
         },
         {
           "name": "Substring search: KMP algorithm",
           "short-name": "kmp-algorithm",
-          "repo": "https://gitlab.com/vlead-projects/experiments/ds/kmp-algorithm",
-          "tag": "v2.0.4",
+          "repo": "https://github.com/virtual-labs/exp-kmp-iiith",
+          "tag": "v1.0.0",
           "deploy": true
         }
       ]
