@@ -61,7 +61,7 @@
           "name": "2-3 Tree",
           "short-name": "2-3-tree",
           "repo": "https://github.com/virtual-labs/exp-2-3-tree-iiith",
-          "tag": "v1.0.1",
+          "tag": "v1.0.2",
           "deploy": true
         },
         {
@@ -87,7 +87,7 @@
           "name": "Substring search: KMP algorithm",
           "short-name": "kmp-algorithm",
           "repo": "https://github.com/virtual-labs/exp-kmp-iiith",
-          "tag": "v1.0.1",
+          "tag": "v1.0.2",
           "deploy": true
         }
       ]
@@ -110,6 +110,6 @@
     ]
   },
   "version": "v1.2.8",
-  "exp_name": "2-3 Tree",
-  "exp_short_name": "2-3-tree"
+  "exp_name": "Substring search: KMP algorithm",
+  "exp_short_name": "kmp-algorithm"
 }
