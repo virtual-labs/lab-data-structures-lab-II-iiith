@@ -35,21 +35,21 @@
           "name": "Topological Sort",
           "short-name": "topo-sort",
           "repo": "https://github.com/virtual-labs/exp-topological-sort-iiith",
-          "tag": "v1.0.4",
+          "tag": "v1.0.5",
           "deploy": true
         },
         {
           "name": "Minimum Spanning Trees",
           "short-name": "min-spanning-trees",
           "repo": "https://github.com/virtual-labs/exp-mst-iiith",
-          "tag": "v1.0.4",
+          "tag": "v1.0.5",
           "deploy": true
         },
         {
           "name": "Path algorithms: Dijkstra’s shortest path",
           "short-name": "dijkstra-algorithm",
           "repo": "https://github.com/virtual-labs/exp-dsp-iiith",
-          "tag": "v1.0.4",
+          "tag": "v1.0.5",
           "deploy": true
         }
       ]
@@ -61,14 +61,14 @@
           "name": "2-3 Tree",
           "short-name": "2-3-tree",
           "repo": "https://github.com/virtual-labs/exp-2-3-tree-iiith",
-          "tag": "v1.0.5",
+          "tag": "v1.0.6",
           "deploy": true
         },
         {
           "name": "Red Black Tree",
           "short-name": "red-black-tree",
           "repo": "https://github.com/virtual-labs/exp-red-black-tree-iiith",
-          "tag": "v1.0.4",
+          "tag": "v1.0.5",
           "deploy": true
         }
       ]
@@ -87,7 +87,7 @@
           "name": "Substring search: KMP algorithm",
           "short-name": "kmp-algorithm",
           "repo": "https://github.com/virtual-labs/exp-kmp-iiith",
-          "tag": "v1.0.5",
+          "tag": "v1.0.6",
           "deploy": true
         }
       ]
