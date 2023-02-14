@@ -110,7 +110,7 @@
       "JNTU Data Structures Lab"
     ]
   },
-  "version": "v1.14.0",
+  "version": "v1.15.0",
   "exp_name": "Substring search: KMP algorithm",
   "exp_short_name": "kmp-algorithm"
 }
