@@ -16,14 +16,14 @@
           "name": "Selection Sort",
           "short-name": "selection-sort",
           "repo": "https://github.com/virtual-labs/exp-selection-sort-iiith",
-          "tag": "v1.0.6",
+          "tag": "v1.0.7",
           "deploy": true
         },
         {
           "name": "Radix Sort",
           "short-name": "radix-sort",
           "repo": "https://github.com/virtual-labs/exp-radix-sort-iiith",
-          "tag": "v1.0.6",
+          "tag": "v1.0.7",
           "deploy": true
         }
       ]
