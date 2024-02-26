@@ -1,7 +1,8 @@
 {
   "broadArea": {
     "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering"
+    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
+    "code": "CSE"
   },
   "lab": "Data Structures – 2",
   "lab_display_name": "Data Structures – 2",
