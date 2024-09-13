@@ -18,7 +18,7 @@
           "name": "Selection Sort",
           "short-name": "selection-sort",
           "repo": "https://github.com/virtual-labs/exp-selection-sort-iiith",
-          "tag": "v1.0.7",
+          "tag": "v1.0.9",
           "deploy": true
         },
         {
