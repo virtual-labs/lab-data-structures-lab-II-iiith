@@ -48,7 +48,7 @@
           "deploy": true
         },
         {
-          "name": "Path algorithms: Dijkstraâs shortest path",
+          "name": "Path algorithms: Dijkstra's shortest path",
           "short-name": "dijkstra-algorithm",
           "repo": "https://github.com/virtual-labs/exp-dsp-iiith",
           "tag": "v1.1.0",
