@@ -18,14 +18,14 @@
           "name": "Selection Sort",
           "short-name": "selection-sort",
           "repo": "https://github.com/virtual-labs/exp-selection-sort-iiith",
-          "tag": "v1.1.1",
+          "tag": "v1.1.2",
           "deploy": true
         },
         {
           "name": "Radix Sort",
           "short-name": "radix-sort",
           "repo": "https://github.com/virtual-labs/exp-radix-sort-iiith",
-          "tag": "v1.1.1",
+          "tag": "v1.1.2",
           "deploy": true
         }
       ]
@@ -63,14 +63,14 @@
           "name": "2-3 Tree",
           "short-name": "2-3-tree",
           "repo": "https://github.com/virtual-labs/exp-2-3-tree-iiith",
-          "tag": "v1.0.8",
+          "tag": "v1.0.9",
           "deploy": true
         },
         {
           "name": "Red Black Tree",
           "short-name": "red-black-tree",
           "repo": "https://github.com/virtual-labs/exp-red-black-tree-iiith",
-          "tag": "v1.0.8",
+          "tag": "v1.0.9",
           "deploy": true
         }
       ]
@@ -82,14 +82,14 @@
           "name": "Tries and Suffix Trees",
           "short-name": "tries-suffix-trees",
           "repo": "https://github.com/virtual-labs/exp-tries-and-suffix-iiith",
-          "tag": "v1.0.7",
+          "tag": "v1.0.8",
           "deploy": true
         },
         {
           "name": "Substring search: KMP algorithm",
           "short-name": "kmp-algorithm",
           "repo": "https://github.com/virtual-labs/exp-kmp-iiith",
-          "tag": "v1.1.1",
+          "tag": "v1.1.2",
           "deploy": true
         }
       ]
